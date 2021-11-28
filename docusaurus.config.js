@@ -56,18 +56,8 @@ const config = {
             label: 'Tutorial',
           },
           {
-            to: '/API', 
-            position: 'left',
-            label: 'API', 
-          },
-          {
-            to: '/contribute', 
-            position: 'left',
-            label: 'Contribute', 
-          },
-          {
             to: '/blog', // TODO like community
-            label: 'Blog', 
+            label: 'Blog',
             position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
