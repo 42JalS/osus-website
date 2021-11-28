@@ -3,7 +3,7 @@ import styles from './demo.module.css';
 import Layout from '@theme/Layout';
 
 function Demo() {
-  const API_URL = 'http://localhost:3000';
+  const DEMO_API_URL = 'https://osusjals.herokuapp.com';
 
   const [result, setResult] = useState('{ }');
   const [customResult, setCustomResult] = useState('{ }');
@@ -15,7 +15,7 @@ function Demo() {
     const originalUrl = e.target.originalUrl.value;
     const select = e.target.select.value;
     const path = select == 'basic' ? 'url' : `${select}-url`;
-    fetch(`${API_URL}/${path}`, {
+    fetch(`${DEMO_API_URL}/${path}`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json; charset=utf-8',
@@ -32,7 +32,7 @@ function Demo() {
 
     const originalUrl = e.target.originalUrl.value;
     const customWord = e.target.customWord.value;
-    fetch(`${API_URL}/custom-url`, {
+    fetch(`${DEMO_API_URL}/custom-url`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json; charset=utf-8',
@@ -48,7 +48,7 @@ function Demo() {
     e.preventDefault();
 
     const convertedPath = e.target.convertedPath.value;
-    fetch(`${API_URL}/original-url/${convertedPath}`, {
+    fetch(`${DEMO_API_URL}/original-url/${convertedPath}`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json; charset=utf-8',
