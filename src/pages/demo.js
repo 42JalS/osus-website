@@ -47,7 +47,7 @@ function Demo() {
   const handleOriginalSubmit = async (e) => {
     e.preventDefault();
 
-    const convertedPath = e.target.convertedPath.value;
+    const convertedPath = encodeURIComponent(e.target.convertedPath.value);
     fetch(`${DEMO_API_URL}/original-url/${convertedPath}`, {
       method: 'GET',
       headers: {
