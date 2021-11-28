@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkosus_website=self.webpackChunkosus_website||[]).push([[811],{4337:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/jal-s","name":"JalS","count":1,"permalink":"/blog/tags/jal-s"}')}}]);
