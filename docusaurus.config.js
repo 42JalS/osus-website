@@ -7,12 +7,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Osus',
-  tagline: 'Dinosaurs website',
+  tagline: 'Open Source URL Shortener',
   url: 'https://42JalS.github.io',
-  baseUrl: '/osus-website/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico', //TODO favicon
+  favicon: 'img/logo.png', //TODO favicon
   organizationName: '42JalS', // Usually your GitHub org/user name.
   projectName: 'osus-website', // Usually your repo name.
 
@@ -38,7 +38,6 @@ const config = {
       }),
     ],
   ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -46,7 +45,7 @@ const config = {
         title: 'Osus Site',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
@@ -56,14 +55,16 @@ const config = {
             label: 'Tutorial',
           },
           {
-            to: '/API', 
+            type: 'doc',
+            docId: 'api/api',
             position: 'left',
-            label: 'API', 
+            label: 'API',
           },
           {
-            to: '/contribute', 
+            type: 'doc',
+            docId: 'contribute/contribute',
             position: 'left',
-            label: 'Contribute', 
+            label: 'Contribute',
           },
           {
             to: '/blog', // TODO like community
