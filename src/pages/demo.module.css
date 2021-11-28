@@ -1,0 +1,67 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.container {
+  display: 'flex';
+  justify-content: 'center';
+  align-items: 'center';
+  margin: '5em';
+  min-height: '50vh';
+  font-size: '20px';
+}
+
+section {
+  margin-top: 2em;
+  margin-bottom: 5em;
+}
+
+form {
+  margin-bottom: 1em;
+}
+
+input {
+  display: inline-block;
+  background-color: transparent;
+  border: 0.1em solid #d1d1d1;
+  border-radius: 0.4em;
+  box-shadow: none;
+  box-sizing: border-box;
+  height: 2.7em;
+  padding: 0.6em 1em;
+  margin-right: 0.5em;
+  line-height: 1;
+}
+
+select {
+  display: inline-block;
+  border: 0.1em solid #d1d1d1;
+  border-radius: 0.4em;
+  box-shadow: none;
+  box-sizing: border-box;
+  height: 2.7em;
+  padding: 0.6em 1em;
+  margin-right: 0.5em;
+  line-height: 1;
+}
+
+
+button {
+  background-color: #2ab1ff;
+  border: 0.1em solid #2ab1ff;
+  border-radius: 0.4em;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  height: 2.7em;
+  letter-spacing: 0.05em;
+  line-height: 1;
+  padding-left: 1.2em;
+  padding-right: 1.2em;
+  text-align: center;
+  text-decoration: none;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
