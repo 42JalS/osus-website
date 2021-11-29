@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkosus_website=self.webpackChunkosus_website||[]).push([[9408],{2543:function(e){e.exports=JSON.parse('{"permalink":"/osus-website/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

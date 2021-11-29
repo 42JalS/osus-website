@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkosus_website=self.webpackChunkosus_website||[]).push([[2251],{5066:function(s){s.exports=JSON.parse('{"allTagsPath":"/osus-website/blog/tags","slug":"/osus-website/blog/tags/jal-s","name":"JalS","count":1,"permalink":"/osus-website/blog/tags/jal-s"}')}}]);

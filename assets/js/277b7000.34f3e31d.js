@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkosus_website=self.webpackChunkosus_website||[]).push([[9101],{2496:function(s){s.exports=JSON.parse('{"allTagsPath":"/osus-website/blog/tags","slug":"/osus-website/blog/tags/osus","name":"Osus","count":4,"permalink":"/osus-website/blog/tags/osus"}')}}]);
